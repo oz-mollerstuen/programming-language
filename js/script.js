@@ -31,7 +31,8 @@ function math() {
   let maxscore = Math.max(val1score,val2score,val3score,val4score);
   var answerbox = document.getElementById('answer');
   if (val1score === maxscore) { 
-    answerbox.innerHTML = "Python";
+    answerbox.innerHTML = "You should learn Python! Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn’t specialized for any specific problems. This versatility, along with its beginner-friendliness, has made it one of the most-used programming languages today. A survey conducted by industry analyst firm RedMonk found that it was the second-most popular programming language among developers in 2021.";
+    trivia.innerHTML = "Did you know? The name Python comes from Monty Python. When Guido van Rossum was creating Python, he was also reading the scripts from BBC’s Monty Python’s Flying Circus. He thought the name Python was appropriately short and slightly mysterious.";
   }
   if (val2score === maxscore) { 
     answerbox.innerHTML = "C#";
