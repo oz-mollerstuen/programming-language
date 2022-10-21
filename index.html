@@ -6,99 +6,90 @@
   <title>Programming Languages</title>
 </head>
 <body>
-  <h1>What Programming Language Is Right For You?</h1>
-  <h2>Let's Find Out Together!</h2>
-  <p>With "1" being the least likely, and "6" being the most likely, fill out this quiz to see!</p>
-<form>  
-  <form id="lang">
-    <p>How much do you enjoy "De-bugging"?</p><br>
-    <input type="radio" name="dbug" value="debugging1" id="bug1" checked>
-    <label for="bug1">1</label>
-    <input type="radio" name="dbug" value="debugging2" id="bug2">
-    <label for="bug2">2</label>
-    <input type="radio" name="dbug" value="debugging3" id="bug3">
-    <label for="bug3">3</label>
-    <input type="radio" name="dbug" value="debugging4" id="bug4">
-    <label for="bug4">4</label>
-    <input type="radio" name="dbug" value="debugging5" id="bug5">
-    <label for="bug5">5</label>
-    <input type="radio" name="dbug" value="debugging6" id="bug6">
-    <label for="bug6">6</label><br><br>
-  </form>
-  <form>  
-    <p>How much would you like to work for a large company?</p><br>
-    <input type="radio" name="csize" value="company1" id="cs1" checked>
-    <label for="cs1">1</label>
-    <input type="radio" name="csize" value="company2" id="cs2">
-    <label for="cs2">2</label>
-    <input type="radio" name="csize" value="company3" id="cs3">
-    <label for="c3">3</label>
-    <input type="radio" name="csize" value="company4" id="cs4">
-    <label for="cs4">4</label>
-    <input type="radio" name="csize" value="company5" id="cs5">
-    <label for="cs5">5</label>
-    <input type="radio" name="csize" value="company6" id="cs6">
-    <label for="cs6">6</label><br>
-  </form>  
-  <form>  
-    <p>"I would like an easy to learn language"</p><br>
-    <input type="radio" name="ease" value="learn1" id="ez1" checked>
-    <label for="ez1">1</label>
-    <input type="radio" name="ease" value="learn2" id="ez2">
-    <label for="ez2">2</label>
-    <input type="radio" name="ease" value="learn3" id="ez3">
-    <label for="ez3">3</label>
-    <input type="radio" name="ease" value="learn4" id="ez4">
-    <label for="ez4">4</label>
-    <input type="radio" name="ease" value="learn5" id="ez5">
-    <label for="ez5">5</label>
-    <input type="radio" name="ease" value="learn6" id="ez6">
-    <label for="ez6">6</label><br>
-  </form>  
-  <form>  
-    <p>"I would like to work on mobile platforms"</p><br>
-    <input type="radio" name="mobile" value="platform1" id="mp1" checked>
-    <label for="mp1">1</label>
-    <input type="radio" name="mobile" value="platform2" id="mp2">
-    <label for="mp2">2</label>
-    <input type="radio" name="mobile" value="platform3" id="mp3">
-    <label for="mp3">3</label>
-    <input type="radio" name="mobile" value="platform4" id="mp4">
-    <label for="mp4">4</label>
-    <input type="radio" name="mobile" value="platform5" id="mp5">
-    <label for="mp5">5</label>
-    <input type="radio" name="mobile" value="platform6" id="mp6">
-    <label for="mp6">6</label><br>
-  </form>  
-  <form>  
-    <p>"I prefer to work on websites"</p><br>
-    <input type="radio" name="websites" value="web1" id="site1" checked>
-    <label for="site1">1</label>
-    <input type="radio" name="websites" value="web2" id="site2">
-    <label for="site2">2</label>
-    <input type="radio" name="websites" value="web3" id="site3">
-    <label for="site3">3</label>
-    <input type="radio" name="websites" value="web4" id="site4">
-    <label for="site4">4</label>
-    <input type="radio" name="websites" value="web5" id="site5">
-    <label for="site5">5</label>
-    <input type="radio" name="websites" value="web6" id="site6">
-    <label for="site6">6</label><br>
-  </form>
-  <form>  
-    <p>"I prefer Windows over Mac"</p><br>
-    <input type="radio" name="system" value="sys1" id="os1" checked>
-    <label for="os1">1</label>
-    <input type="radio" name="system" value="sys2" id="os2">
-    <label for="os2">2</label>
-    <input type="radio" name="system" value="sys3" id="os3">
-    <label for="os3">3</label>
-    <input type="radio" name="system" value="sys4" id="os4">
-    <label for="os4">4</label>
-    <input type="radio" name="system" value="sys5" id="os5">
-    <label for="os5">5</label>
-    <input type="radio" name="system" value="sys6" id="os6">
-    <label for="os6">6</label><br>
-  </form>
-  <br><br><button type="submit" class="button">What should you learn?</button><br>
-</form>  
+
+  
+
+
+  <div id="wrapper">
+    <h1>What Programming Language Should You Choose?</h1>
+    <p>Take this quiz to see!</p>
+    
+    <form id="quiz">
+      <h2>What are you the most excited about programming?</h2>
+      <label><input type="radio" name="q1" value="c1">
+        Experimenting and learning something new
+      </label><br/>
+      <label><input type="radio" name="q1" value="c2">
+        Creating something no one else has
+      </label><br/>
+      <label><input type="radio" name="q1" value="c3">
+        Being challanged and pushed to your limits
+      </label><br/>
+      <label><input type="radio" name="q1" value="c4">
+        Taking risks
+      </label><br/>
+  
+      <h2>You prefer to work with... </h2>
+      <label><input type="radio" name="q2" value="c1">
+        A large, established code and directory
+      </label><br/>
+      <label><input type="radio" name="q2" value="c2">
+        A code that can be used on many popular platforms
+      </label><br/>
+      <label><input type="radio" name="q2" value="c3">
+        A complicated code that takes years to master
+      </label><br/>
+      <label><input type="radio" name="q2" value="c4">
+        A text based code
+      </label><br/>
+      
+      <h2>In the future I want to work with...</h2>
+      <label><input type="radio" name="q3" value="c1">
+        Back-end web servers
+      </label><br/>
+      <label><input type="radio" name="q3" value="c2">
+        Video games and 3D software
+      </label><br/>
+      <label><input type="radio" name="q3" value="c3">
+        Cross platform applications
+      </label><br/>
+      <label><input type="radio" name="q3" value="c4">
+        Websites
+      </label><br/>
+      
+      <h2>What do you secretly want out of a programming job?</h2>
+      <label><input type="radio" name="q4" value="c1">
+        To learn something new and easy
+      </label><br/>
+      <label><input type="radio" name="q4" value="c2">
+        To work at a popular company
+      </label><br/>
+      <label><input type="radio" name="q4" value="c3">
+        Money. And lots of it.
+      </label><br/>
+      <label><input type="radio" name="q4" value="c4">
+        To find a job anywhere.
+      </label><br/>
+
+      <h2>My Favorite Marvel Character Is:</h2>
+      <label><input type="radio" name="q4" value="c1">
+        Ant-Man
+      </label><br/>
+      <label><input type="radio" name="q4" value="c2">
+        Iron Man
+      </label><br/>
+      <label><input type="radio" name="q4" value="c3">
+        Black Widow
+      </label><br/>
+      <label><input type="radio" name="q4" value="c4">
+        Spider-Man
+      </label><br/><br>
+      
+      <button type="submit" id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
+    <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+    </form><br><br>
+    
+    
+    <div id="answer"></div>
+  </div>
+ 
