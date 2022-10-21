@@ -9,3 +9,20 @@ p {
 h1 {
   text-align: center;
 }
+
+.button {
+  text-align: center;
+}
+
+h1 {
+  padding: 30px;
+  background-color: rgb(165, 87, 42);
+}
+
+p {
+  background-color: black;
+  font-family: fantasy;
+  color: cornflowerblue;
+  padding: 12px;
+  font-size: larger;
+}
