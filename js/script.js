@@ -4,24 +4,13 @@ window.addEventListener("load", function() {
   event.preventDefault();
  }
   
-  
-
-  
-  
-
-
-
-function tabulateAnswers() {
-  
-  
-  
+function math() {
   let val1score = 0;
   let val2score = 0;
   let val3score = 0;
   let val4score = 0;
-      
   const picks = document.getElementsByTagName('input');
-  
+
   for (val=0; val<picks.length; val++) {
     if (picks[val].checked) {
       if (picks[val].value == 'val1') {
@@ -38,12 +27,8 @@ function tabulateAnswers() {
       }  
     }
   }
-  
- 
- 
-  let maxscore = Math.max(val1score,val2score,val3score,val4score);
-  
 
+  let maxscore = Math.max(val1score,val2score,val3score,val4score);
   var answerbox = document.getElementById('answer');
   if (val1score === maxscore) { 
     answerbox.innerHTML = "Python";
@@ -58,9 +43,7 @@ function tabulateAnswers() {
     answerbox.innerHTML = "JavaScript";
   }
 }
-
-
-function resetAnswer() {
+function redo() {
   let answerbox = document.getElementById('answer');
   answerbox.innerHTML = "Who's excited to see?";
 }
