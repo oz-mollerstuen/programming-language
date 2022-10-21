@@ -1,7 +1,9 @@
 window.addEventListener("load", function() {
 });
- function prevent(event)
-  event.preventDefault
+ function prevent(event) {
+  event.preventDefault();
+ }
+  
   
 
   
@@ -17,8 +19,7 @@ function tabulateAnswers() {
   let val2score = 0;
   let val3score = 0;
   let val4score = 0;
-  let val5score = 0;
-    
+      
   const picks = document.getElementsByTagName('input');
   
   for (val=0; val<picks.length; val++) {
@@ -44,16 +45,16 @@ function tabulateAnswers() {
   
 
   var answerbox = document.getElementById('answer');
-  if (c1score == maxscore) { 
+  if (val1score === maxscore) { 
     answerbox.innerHTML = "Python";
   }
-  if (c2score == maxscore) { 
+  if (val2score === maxscore) { 
     answerbox.innerHTML = "C#";
   }
-  if (c3score == maxscore) { 
+  if (val3score === maxscore) { 
     answerbox.innerHTML = "Java";
   }
-  if (c4score == maxscore) { 
+  if (val4score === maxscore) { 
     answerbox.innerHTML = "JavaScript";
   }
 }
