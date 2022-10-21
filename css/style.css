@@ -26,3 +26,7 @@ p {
   padding: 12px;
   font-size: larger;
 }
+
+body {
+  background-color: coral;
+}
